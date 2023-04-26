@@ -147,7 +147,7 @@ class ShareHandlerPlugin: FlutterPlugin, Messages.ShareHandlerApi, EventChannel.
   }
 
   override fun onNewIntent(intent: Intent): Boolean {
-    handleIntent(intent, false)
+    handleIntent(intent, true)
     return false
   }
 
